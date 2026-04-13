@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -884,9 +883,9 @@
 
         <!-- Hidden Romantic Birthday Card -->
         <div class="glass-card" id="birthdayCard">
-            <img src="aditi.jpg" alt="Our Love" class="card-img">
+            <img src="sruthi bgrm.jpg" alt="Our Love" class="card-img">
 
-            <h1>Happy Birthday, Aditi!</h1>
+            <h1>Happy Birthday, Sruthi bgrm !</h1>
             <p class="subtitle">To the absolute love of my life ❤️</p>
 
             <div class="slideshow-container">
