@@ -51,32 +51,33 @@
         /* Floating Light Particles Background */
         .particles {
             position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 1;
+           color: #fff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             overflow: hidden;
+            perspective: 1000px;
         }
 
-        .particle {
-            position: absolute;
-            display: block;
-            pointer-events: none;
-            opacity: 0;
-            animation: floatUp 15s linear infinite;
-        }
-
-        @keyframes floatUp {
+        /* Smooth animated gradient background */
+        @keyframes gradientBG {
             0% {
-                transform: translateY(110vh) scale(0) rotate(0deg);
-                opacity: 0;
+                background-position: 0% 50%;
             }
 
-            10% {
-                opacity: 0.8;
+            50% {
+                background-position: 100% 50%;
             }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Floating Light Particles Background */
+        .particles {
+            position: absolute;
 
             80% {
                 opacity: 0.8;
@@ -884,9 +885,9 @@
 
         <!-- Hidden Romantic Birthday Card -->
         <div class="glass-card" id="birthdayCard">
-            <img src="aditi.jpg" alt="Our Love" class="card-img">
+            <img src="sruthi bgrm.jpg" alt="Our Love" class="card-img">
 
-            <h1>Happy Birthday, Aditi!</h1>
+            <h1>Happy Birthday, sruthi bgrm!</h1>
             <p class="subtitle">To the absolute love of my life ❤️</p>
 
             <div class="slideshow-container">
@@ -914,7 +915,7 @@
                 bring into my life every single day. I'll always be here to hold your hand
                 through it all.
                 <br><br>
-                Happy Birthday, darling. I love you to the moon and back.
+                Happy Birthday, bgrm. I love you to the moon and back.
             </p>
             <button class="btn-close" onclick="closeMessageModal()">Close Message</button>
         </div>
